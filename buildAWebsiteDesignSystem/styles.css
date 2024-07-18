@@ -1,0 +1,367 @@
+.styleGuide {
+  margin-left: 15%;
+}
+
+.btn {
+  border: 1px solid;
+  border-radius: 7px;
+  width: 125px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+
+.hero {
+  margin-top: 100px;
+}
+
+.btn:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.btn:active {
+  margin-top: 5px;
+}
+
+header div {
+  display: inline-block;
+} 
+
+.nav {
+  float: right;
+  margin-right: 15%;
+}
+
+body {
+  font-family: system-ui;
+  background: linen;
+  color: black;
+}
+
+.color {
+  height: 120px;
+  width: 100%;
+  background-color: navy;
+  margin: auto;
+  text-align: center;
+}
+
+.themeSeparater {
+  border: 2px solid;
+  width: 70%;
+  margin: auto;
+  border-top: none;
+  height: auto;
+}
+
+.themeSeparater div {
+  display: inline-block;
+  margin: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.colorCard {
+  box-shadow: 4px 4px gray; 
+  border: 2px solid;
+  border-color: black;
+  width: 200px;
+  transition: box-shadow 0.3s ease, background-color 1s ease-out;
+}
+
+.colorCard:hover {
+  border-color: #000;
+  position: relative;
+  box-shadow: 0 0 0 3px black;
+} 
+
+.colorCard:active {
+  top: 10px;
+  background-color: gray;
+  transition: background-color 0.1s ease-in;
+}
+
+#themeCard {
+  width: 350px;
+  background-color: linen;
+  border-color: linen;
+}
+
+#themeCard:hover {
+  top: 0;
+  border: 2px solid;
+}
+
+.header {
+  border-bottom: 1px solid;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  border-color: lightgray;
+  padding-bottom: 30px;
+}
+
+ /* Classic and elegant */
+#navy {
+  background-color: #000080;
+}
+
+#darkWhite {
+  background-color: #ecf0f1;
+}
+
+#lightGray {
+  background-color: #bdc3c7;
+}
+
+#gold {
+  background-color: #ffd700;
+}
+
+/* Minimalist & Clean */
+
+#white {
+  background-color: #fff;
+}
+
+#black {
+  background-color: #000;
+}
+
+#lightGray1 {
+  background-color: #d3d3d3;
+}
+
+#softBlue {
+  background-color: #3498db;
+}
+
+/* Modern & Vibrant */
+
+#teal {
+  background-color:  #1abc9c;
+}
+
+#darkGray {
+  background-color: #2c3e50;
+}
+
+/* #darkWhite */
+
+#brightYellow {
+  background-color: #ffff00;;
+}
+
+/* Soft & Warm */
+
+#peach {
+  background-color: #ff6f61;
+}
+
+#cream {
+  background-color: #fff5e1;
+}
+
+#lightBrown {
+  background-color: #d4a373;
+}
+
+#oliveGreen {
+  background-color: #b0a160;
+}
+
+/* Professional & Corporate */
+
+#darkBlue {
+  background-color: #00008b;
+}
+
+#lightBlue {
+  background-color: #3498db;
+}
+
+/* #darkWhite */
+
+#gray {
+  background-color: #7f8c8d;
+}
+
+/* Playful & Friendly */
+
+#brightBlue {
+  background-color: #2980b9;
+}
+
+/* #brightYellow */
+
+#brightGreen {
+  background-color: #27ae60;
+}
+
+/* #white */
+
+/* Nature Inspired */
+
+#forestGreen {
+  background-color: #228b22;
+}
+
+#skyBlue {
+  background-color: #87ceeb;
+}
+
+#earthBrown {
+  background-color: #BC815F;
+}
+
+/* #darkWhite */
+
+/* Retro & Fun */
+
+#coral {
+  background-color: #e74c3c;
+}
+
+#mustardYellow {
+  background-color: #f39c12;
+}
+
+#aquaBlue {
+  background-color: #1abc9c;
+}
+
+#offWhite {
+  background-color: #f5f5f5;
+}
+
+/* Dark Mode  */
+ 
+/* #black */
+
+/* #darkGray */
+
+#electricBlue {
+  background-color: #7df9ff;
+}
+
+/* #white */
+
+/* Pastel & Soft */
+
+#pastelPink {
+  background-color: #ffc0cb;
+}
+
+#pastelYellow {
+  background-color: #fff5ba;
+}
+
+#pastelGreen {
+  background-color: #c1e1c1;
+}
+
+#pastelBlue {
+  background-color: #aec6cf;
+}
+
+#topBorderEdge {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-top: 2px solid;
+}
+
+#bottomBorderEdge {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+footer {
+  text-align: center;
+}
+
+#themeCard p {
+  text-align: left;
+  margin: 10px 5px;
+}
+
+a:hover {
+  color: blue;
+}
+
+.fontCard {
+  background-color: #fff;
+  height: 250px;
+  width: 30%;
+  margin: 10px;
+  display: inline-block;
+  border: 2px solid black;
+  box-shadow: 0 0 0 2px gray;
+  vertical-align: middle;
+}
+
+.fontRow {
+  margin-left: 15%;
+  width: 70%;
+  text-align: center;
+}
+
+/* Fonts */
+
+#playfairDisplay {
+  font-family: "Playfair Display";
+}
+
+#lato {
+  font-family: "Lato";
+}
+
+#poppins {
+  font-family: "Poppins";
+}
+
+#raleway {
+  font-family: "Raleway";
+}
+
+#fredokaOne {
+  font-family: "Fredoka One";
+}
+
+#montserrat {
+  font-family: "Montserrat";
+}
+
+#lobster {
+  font-family: "Lobster";
+}
+
+#roboto {
+  font-family: "Roboto";
+}
+
+#comfortaa {
+  font-family: "Comfortaa";
+}
+
+#styleH1 {
+  font-family: "Nunito Sans";
+}
+
+#styleH2 {
+  font-family: "Poppins";
+}
+
+#styleP {
+  font-family: "Poppins";
+}
+
+.styleList li {
+  margin: 20px;
+}
