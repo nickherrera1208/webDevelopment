@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+body {
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://wallpaperaccess.com/full/4142240.jpg");
+}
+
+.topBorder{
+  background-color: rgb(0,0,139);
+  width: 100%;
+  height: 75px;
+}
+
+.bottomBorder{
+width:100%;
+height: 75px;
+background-color: rgb(0,0,139);
+position: fixed;
+bottom: 0;
+}
+
+.HTMLtable {
+  width: 60%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 25%;
+}
+
+.columnTitles {
+  background-color: plum;
+  margin: 0;
+  border: 1px solid;
+  border-color: lightgray;
+}
+
+table {
+  width: 85%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td {
+  border: 1px solid;
+  padding: 10px;
+  margin: 0;
+  border-color: lightgray;
+}
+
+tr{
+  font-size: 17px;
+}
+h1{
+  color: white;
+  line-height: 2;
+  text-align: justify;
+  padding-left: 50px;
+}
+
+h2 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: blueviolet;
+  width: 85%;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.tableFooter {
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-color: blueviolet;
+  height: 10px;
+  width: 85%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.widenColumn {
+  width: 135px;
+}
+
+.textBackground{
+  background-color: thistle;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 1.25;
+}
